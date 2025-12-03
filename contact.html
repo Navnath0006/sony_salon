@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - LuxeSalon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Luxe<span>Salon</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="contact-wrapper">
+
+                <!-- Contact Info & Form -->
+                <div class="contact-info-form">
+                    <div class="contact-details">
+                        <h2>Get In Touch</h2>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Beauty Lane, Cityville</p>
+                        <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                        <p><i class="fas fa-envelope"></i> info@luxesalon.com</p>
+
+                        <div class="opening-hours">
+                            <h3>Opening Hours</h3>
+                            <p><span>Mon - Fri:</span> 9:00 AM - 8:00 PM</p>
+                            <p><span>Saturday:</span> 10:00 AM - 6:00 PM</p>
+                            <p><span>Sunday:</span> Closed</p>
+                        </div>
+
+                        <a href="https://wa.me/1234567890" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h2>Book an Appointment</h2>
+                        <form id="booking-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service</label>
+                                <select id="service" name="service">
+                                    <option value="hair">Hair Styling</option>
+                                    <option value="makeup">Makeup</option>
+                                    <option value="skin">Skin Care</option>
+                                    <option value="spa">Spa & Massage</option>
+                                    <option value="bridal">Bridal Package</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Google Map Embed -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153168!3d-37.816279742021665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d22b40656755!2sFlinders%20Lane%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1625624890659!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>LuxeSalon</h3>
+                <p>Your destination for beauty and relaxation.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Beauty Lane, Cityville</p>
+                <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@luxesalon.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 LuxeSalon. All Rights Reserved.</p>
+            <p>Developed by <a href="https://navnathkamble.netlify.app/" target="_blank">https://navnathkamble.netlify.app/</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
