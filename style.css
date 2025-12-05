@@ -1,10 +1,10 @@
 /* Global Styles */
 :root {
     --primary-color: #D4AF37; /* Gold */
-    --secondary-color: #333; /* Dark Gray */
+    --secondary-color: #880E4F; /* Dark Pink */
     --text-color: #555;
     --bg-color: #fff;
-    --light-bg: #f9f9f9;
+    --light-bg: #FFF0F5; /* Light Pink */
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Lato', sans-serif;
     --transition: all 0.3s ease;
@@ -296,8 +296,8 @@ header .container {
 
 /* Footer */
 footer {
-    background-color: #222;
-    color: #ccc;
+    background-color: #4A0E2E; /* Deep Dark Pink/Purple */
+    color: #ffdcdccc;
     padding: 60px 0 20px;
 }
 
